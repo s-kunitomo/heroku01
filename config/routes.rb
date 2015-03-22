@@ -1,6 +1,14 @@
 Rails.application.routes.draw do
   resources :blogs
 
+  get 'people/index'
+  get 'people/sample'
+  get 'people/json'
+  get 'people/xml'
+  get 'people/inputParames'
+  get 'people/customModel'
+  get 'people/abc'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
